@@ -1,0 +1,34 @@
+# ===== 데이터 원본 (수백 MB, GitHub Pages 와 무관) =====
+data/
+
+# ===== 학습/예측 산출물 (로컬 전용) =====
+*.pkl
+*.joblib
+*.parquet
+
+# ===== Python 캐시 =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ===== 더 이상 사용 안 하는 PNG 차트 캐시 =====
+charts_forecast/
+charts_math_forecast/
+
+# ===== 로그 =====
+*.log
+daily.log
+viewer_refresh.log
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# ===== 임시 =====
+*.tmp
+*.bak
